@@ -5,6 +5,7 @@ export default function Details() {
     <div>
       {sections.map((section, i) => (
         <div
+          key={i}
           className={`flex items-center justify-between gap-4 px-2 py-6  ${
             section.left ? "flex-row" : "flex-row-reverse"
           }`}
