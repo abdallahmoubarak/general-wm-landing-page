@@ -14,9 +14,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="max-w-7xl mx-auto px-4">
+      <div className="px-4">
         <Header />
         <Hero />
+      </div>
+      <main className="max-w-7xl mx-auto px-4">
         <Specifics />
         <Details />
       </main>
