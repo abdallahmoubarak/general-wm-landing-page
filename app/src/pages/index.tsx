@@ -1,3 +1,5 @@
+import Header from "@/components/sections/Header";
+import Hero from "@/components/sections/Hero";
 import Head from "next/head";
 
 export default function Home() {
@@ -9,8 +11,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
-        <div></div>
+      <main className="max-w-7xl mx-auto px-4">
+        <Header />
+        <Hero />
       </main>
     </>
   );
