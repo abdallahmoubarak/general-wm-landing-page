@@ -1,3 +1,5 @@
+import Details from "@/components/sections/Details";
+import Footer from "@/components/sections/Footer";
 import Header from "@/components/sections/Header";
 import Hero from "@/components/sections/Hero";
 import Specifics from "@/components/sections/Specifics";
@@ -16,7 +18,9 @@ export default function Home() {
         <Header />
         <Hero />
         <Specifics />
+        <Details />
       </main>
+      <Footer />
     </>
   );
 }

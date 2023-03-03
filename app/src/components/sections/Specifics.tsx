@@ -13,11 +13,11 @@ export default function Specifics() {
           information.
         </h2>
       </div>
-      <div className="flex gap-[2rem] flex-wrap mx-auto w-fit">
+      <div className="flex gap-[3rem] flex-wrap mx-auto w-fit px-2">
         {cards.map((card, i) => (
           <div
             key={i}
-            className="relative border-4 border-primary_100 pt-6 pb-2 px-2 w-60  flex-auto"
+            className="relative border-4 border-primary_100 pt-6 pb-2 px-2 w-56 flex-auto"
           >
             <div className="absolute top-[-2rem] bg-white">
               <Image src={card.icon} alt={card.name} width={50} height={50} />
