@@ -1,5 +1,6 @@
 import Header from "@/components/sections/Header";
 import Hero from "@/components/sections/Hero";
+import Specifics from "@/components/sections/Specifics";
 import Head from "next/head";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <main className="max-w-7xl mx-auto px-4">
         <Header />
         <Hero />
+        <Specifics />
       </main>
     </>
   );

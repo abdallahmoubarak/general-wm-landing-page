@@ -1,6 +1,7 @@
 import { BiDollarCircle } from "react-icons/bi";
 import Button from "@/components/Button";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Header() {
   return (
@@ -8,7 +9,11 @@ export default function Header() {
       <div>
         <Image src="svg/Logo.svg" alt="Water Monster" width={130} height={40} />
       </div>
-      <Button text="Invest in the project" icon={<BiDollarCircle />} />
+      <Link
+        href={`https://wa.me/+96170097533?text=I want to invest with you, my investment amount is:`}
+      >
+        <Button text="Invest in the project" icon={<BiDollarCircle />} />
+      </Link>
     </div>
   );
 }

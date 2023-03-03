@@ -2,6 +2,7 @@ import Button from "../Button";
 import { BsWhatsapp } from "react-icons/bs";
 import Image from "next/image";
 import AnimatedWifi from "../AnimatedWifi";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -19,7 +20,7 @@ export default function Hero() {
       <div className="absolute left-[35%] w-4 sm:w-16">
         <AnimatedWifi />
       </div>
-      <div className="absolute right-[27%] w-4 sm:w-16 rotate-[260deg]">
+      <div className="absolute right-[28%] w-4 sm:w-16 rotate-[260deg]">
         <AnimatedWifi />
       </div>
       <div className="text-center">
@@ -31,7 +32,9 @@ export default function Hero() {
         </h2>
       </div>
       <div className="w-fit mx-auto ">
-        <Button text="Order Yours Now" icon={<BsWhatsapp />} />
+        <Link href={`https://wa.me/+96170097533?text=I want to buy `}>
+          <Button text="Order Yours Now" icon={<BsWhatsapp />} />
+        </Link>
       </div>
     </div>
   );
