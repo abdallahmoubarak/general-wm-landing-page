@@ -21,13 +21,13 @@ const teamMembers = [
 
 function TeamMember(props: any) {
   return (
-    <div className="bg-primary_80 rounded-lg p-4 text-black">
+    <div className="bg-primary_100 rounded-lg p-2 text-white">
       <div className="w-full h-52 rounded-lg overflow-hidden">
         <Image
           src={props.image}
           alt={props.name}
           width={300}
-          height={400}
+          height={300}
           className="filter grayscale object-cover w-full"
         />
       </div>
