@@ -27,7 +27,7 @@ const icons = [
 
 export default function Footer() {
   return (
-    <div className="bg-black bg-icons-gray flex flex-col md:flex-row gap-4 justify-between items-center px-5 sm:px-28 pb-5 sm:py-5 w-full mx-auto">
+    <div className="bg-black bg-icons-gray flex flex-col md:flex-row gap-4 justify-between items-center px-5 sm:px-36 pb-5 sm:py-5 w-full mx-auto">
       <div className="flex items-center justify-between space-x-6 text-white font-semibold text-xs w-72 order-3 md:order-1">
         <p>2023 © Water Monster</p>
         <p>
@@ -40,7 +40,7 @@ export default function Footer() {
             <a
               href={icon.link}
               key={icon.name}
-              className="w-12 h-12 bg-black border border-solid border-l-white rounded-full flex items-center justify-center hover:filter hover:invert"
+              className="w-12 h-12 bg-black border-2 border-solid border-l-white rounded-full flex items-center justify-center hover:filter hover:invert"
             >
               <Image
                 src={icon.icon}
