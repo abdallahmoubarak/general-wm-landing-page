@@ -14,7 +14,7 @@ const teamMembers = [
   },
   {
     name: "Hadi Darwish",
-    image: "/jpg/hadi.jpg",
+    image: "/jpg/Hadi.jpg",
     role: "Hardware and Software Engineer",
   },
 ];
