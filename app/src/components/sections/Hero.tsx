@@ -28,7 +28,7 @@ export default function Hero() {
           {"Water monitoring made easy"}
         </h1>
         <h2 className="text-sm sm:text-lg tracking-wider">
-          {"We aim to keep the clean water flow"}
+          {"We aim to keep the clean water flowing"}
         </h2>
       </div>
       <div className="w-fit mx-auto ">
