@@ -7,17 +7,17 @@ export default function Specifics() {
         <h1 className="text-xl sm:text-4xl font-bold tracking-wide text-primary_100 pb-4">
           All in one water controlling
         </h1>
-        <h2 className="tracking-wider text-black_gray sm:px-20">
+        <p className="tracking-wider text-black_gray sm:px-20 text-sm md:text-xl">
           Monitor water levels in real-time, track usage, and receive low level
           alerts. Water Monster also provides valuable water quality
           information.
-        </h2>
+        </p>
       </div>
-      <div className="flex gap-[3rem] flex-wrap mx-auto w-fit px-2">
+      <div className="flex gap-[3rem] flex-wrap mx-auto w-fit px-2 justify-center">
         {cards.map((card, i) => (
           <div
             key={i}
-            className="relative border-4 border-primary_100 pt-6 pb-2 px-2 w-56 flex-auto"
+            className="relative border-4 border-primary_100 pt-6 pb-2 px-2 w-56 flex-auto max-w-[22rem] "
           >
             <div className="absolute top-[-2rem] bg-white">
               <Image src={card.icon} alt={card.name} width={50} height={50} />
@@ -34,6 +34,7 @@ export default function Specifics() {
     </div>
   );
 }
+
 const cards = [
   {
     name: "Monitor",
