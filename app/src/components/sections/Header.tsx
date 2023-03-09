@@ -7,7 +7,13 @@ export default function Header() {
   return (
     <div className="flex items-center justify-between gap-2 py-4">
       <div>
-        <Image src="svg/Logo.svg" alt="Water Monster" width={130} height={40} />
+        <Image
+          src="svg/Logo.svg"
+          alt="Water Monster"
+          width={130}
+          height={40}
+          className="md:w-44"
+        />
       </div>
       <Link
         href={`https://wa.me/+96170097533?text=I want to invest with you, my investment amount is:`}
