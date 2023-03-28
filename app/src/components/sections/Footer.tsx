@@ -4,24 +4,19 @@ import Image from "next/image";
 
 const icons = [
   {
-    name: "Twitter",
-    icon: "svg/twitter-icon.svg",
-    link: "#",
-  },
-  {
-    name: "YouTube",
-    icon: "svg/youtube-icon.svg",
-    link: "#",
+    name: "LinkedIn",
+    icon: "svg/linkedin-icon.svg",
+    link: "https://www.linkedin.com/company/water-monster-app",
   },
   {
     name: "Instagram",
     icon: "svg/instagram-icon.svg",
-    link: "#",
+    link: "https://www.instagram.com/watermonsterapp/",
   },
   {
     name: "Facebook",
     icon: "svg/facebook-icon.svg",
-    link: "#",
+    link: "https://www.facebook.com/profile.php?id=100089243182747",
   },
 ];
 
@@ -31,7 +26,7 @@ export default function Footer() {
       <div className="flex items-center justify-between space-x-6 text-white font-semibold text-xs w-72 order-3 md:order-1">
         <p>2023 © Water Monster</p>
         <p>
-          <Link href="/terms-of-service">Terms of Service</Link>
+          <Link href="#">Terms of Service</Link>
         </p>
       </div>
       <div className="flex justify-center items-center sm:mt-0 mt-5 order-1 md:order-2">
