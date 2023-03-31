@@ -15,20 +15,17 @@ const partners = [
 ];
 
 const Partnerships = () => {
-  const numItems = partners.length;
-  const numCols = numItems > 4 ? 4 : numItems;
-
   return (
-    <div className="container mx-auto">
+    <div className="rounded-xl border border-primary py-4 bg-gray-100">
       <SectionHeader text="Our Partnerships" />
-      <div className={`grid grid-cols-2 sm:grid-cols-${numCols} gap-4`}>
+      <div className="flex flex-wrap justify-center gap-4">
         {partners.map((partner, index) => (
-          <div key={index} className="mx-auto">
+          <div key={index}>
             <a href={partner.link} target="_blank" rel="noreferrer">
               <img
                 src={partner.logo}
                 alt={partner.name}
-                className="h-36 w-auto object-contain mx-auto"
+                className="h-36 w-auto object-contain mx-auto rounded-md"
               />
             </a>
           </div>
