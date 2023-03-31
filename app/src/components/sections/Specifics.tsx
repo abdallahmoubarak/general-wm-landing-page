@@ -1,12 +1,11 @@
 import Image from "next/image";
+import SectionHeader from "../SectionHeader";
 
 export default function Specifics() {
   return (
     <div className="py-8">
       <div className="text-center pt-8 pb-20 px-4">
-        <h1 className="text-xl sm:text-4xl font-bold tracking-wide text-primary_100 pb-4">
-          All in one water controlling
-        </h1>
+        <SectionHeader text="All in one water controlling" />
         <h2 className="tracking-wider text-black_gray sm:px-20">
           Monitor water levels in real-time, track usage, and receive low level
           alerts. Water Monster also provides valuable water quality
