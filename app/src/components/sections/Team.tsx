@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import SectionHeader from "../SectionHeader";
 
 const teamMembers = [
   {
@@ -42,19 +43,19 @@ const teamMembers = [
 
 function TeamMember({ image, name, role }: any) {
   return (
-    <div className="bg-primary_100 rounded-lg p-2 text-white">
-      <div className="w-full h-80 rounded-lg overflow-hidden">
+    <div className="bg-primary_100 rounded-lg p-2 text-white h-auto">
+      <div className="w-full h-36 sm:h-40 md:h-64 rounded-lg overflow-hidden">
         <Image
           src={image}
           alt={name}
           width={300}
           height={300}
-          className="filter grayscale object-cover w-full"
+          className="filter grayscale object-cover w-full rounded-lg"
         />
       </div>
-      <div className="pt-4 px-4 ">
-        <h3 className="font-bold text-xl">{name}</h3>
-        <p>{role}</p>
+      <div className="pt-2 md:pt-4 px-1 md:px-4">
+        <h3 className="font-bold text-sm sm:text-xl">{name}</h3>
+        <p className="text-xs sm:text-lg">{role}</p>
       </div>
     </div>
   );
@@ -63,10 +64,8 @@ function TeamMember({ image, name, role }: any) {
 export default function TeamMembers() {
   return (
     <div className="py-16">
-      <h1 className="text-2xl sm:text-4xl font-bold tracking-wide text-primary_100 px-2 pb-6 text-center ">
-        Meet the Team
-      </h1>
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
+      <SectionHeader text="Meet the Team" />
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-8">
         {teamMembers.map((member, index) => (
           <TeamMember
             key={index}
