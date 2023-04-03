@@ -16,16 +16,16 @@ const partners = [
 
 const Partnerships = () => {
   return (
-    <div className="rounded-xl border border-primary py-4 bg-gray-100">
+    <div className="rounded-xl border border-primary_60 py-4 bg-gray-100">
       <SectionHeader text="Our Partnerships" />
       <div className="flex flex-wrap justify-center gap-4">
-        {partners.map((partner, index) => (
-          <div key={index}>
+        {partners.map((partner, i) => (
+          <div key={i}>
             <a href={partner.link} target="_blank" rel="noreferrer">
               <img
                 src={partner.logo}
                 alt={partner.name}
-                className="h-36 w-auto object-contain mx-auto rounded-md"
+                className="h-36 w-auto object-contain mx-auto rounded-md border border-primary_100"
               />
             </a>
           </div>
