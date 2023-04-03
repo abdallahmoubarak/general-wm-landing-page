@@ -17,22 +17,22 @@ const teamMembers = [
   {
     name: "Hadi Darwish",
     image: "/jpg/hadid.jpg",
-    role: "Hardware & Software Developer",
+    role: "Product Developer",
   },
   {
     name: "Maha Khalaf",
     image: "/jpg/maha.jpg",
-    role: "Digital Marketing ",
+    role: "Digital Marketing",
   },
   {
     name: "Hussam Kak",
     image: "/jpg/hussam.jpg",
-    role: "Hardware & Software Developer",
+    role: "3D Modeling & Software Developer",
   },
   {
     name: "Ali Haidar",
     image: "/jpg/ali.jpg",
-    role: "Hardware & Software Developer",
+    role: "Backend Developer",
   },
   {
     name: "Maya Bittar",
