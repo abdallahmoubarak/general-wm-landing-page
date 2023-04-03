@@ -6,18 +6,25 @@ export default function Details() {
       {sections.map((section, i) => (
         <div
           key={i}
-          className={`flex items-center justify-between gap-8 px-2 py-6  ${
-            section.left ? "flex-row" : "flex-row-reverse"
-          }`}
+          // Add a top border to all sections except the first one if the screen is small
+          className={`flex flex-col items-center justify-center md:flex-row md:items-center md:justify-between md:gap-16 px-2 py-6 ${
+            section.left ? "md:flex-row" : "md:flex-row-reverse"
+          }
+          ${i !== sections.length - 1 && "border-b-2 border-gray-200"}
+          `}
         >
-          <div className="flex-[1_1_30%]">
+          <div className="w-full md:w-[40%]">
             <h1 className="text-xl sm:text-2xl font-bold text-black_gray">
               {section.title}
             </h1>
-            <p className="py-8 px-1 max-w-[85%] text-justify">{section.text}</p>
+            <p className="py-8 px-1 text-justify">{section.text}</p>
           </div>
-          <div>
-            <Image src={section.img} alt="" width={600} height={600} />
+          <div
+            className={`flex w-full md:w-[60%] justify-center ${
+              section.left ? "md:justify-end" : "md:justify-start"
+            } `}
+          >
+            <Image src={section.img} alt="" width={550} height={600} />
           </div>
         </div>
       ))}
