@@ -27,12 +27,12 @@ const teamMembers = [
   {
     name: "Hussam Kak",
     image: "/jpg/hussam.jpg",
-    role: "3D Modeling & Software Developer",
+    role: "3D Modeler",
   },
   {
     name: "Ali Haidar",
     image: "/jpg/ali.jpg",
-    role: "Backend Developer",
+    role: "Software Developer",
   },
   {
     name: "Maya Bittar",
