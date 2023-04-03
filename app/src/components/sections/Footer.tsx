@@ -6,17 +6,17 @@ const icons = [
   {
     name: "LinkedIn",
     icon: "svg/linkedin-icon.svg",
-    link: "https://www.linkedin.com/company/water-monster-app",
+    link: "https://www.linkedin.com/company/water-monster-io/",
   },
   {
     name: "Instagram",
     icon: "svg/instagram-icon.svg",
-    link: "https://www.instagram.com/watermonsterapp/",
+    link: "https://www.instagram.com/watermonster.io/",
   },
   {
     name: "Facebook",
     icon: "svg/facebook-icon.svg",
-    link: "https://www.facebook.com/profile.php?id=100089243182747",
+    link: "https://www.facebook.com/watermonster.io",
   },
 ];
 
