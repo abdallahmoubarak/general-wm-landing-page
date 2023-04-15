@@ -24,7 +24,12 @@ export default function Details() {
               section.left ? "md:justify-end" : "md:justify-start"
             } `}
           >
-            <Image src={section.img} alt="" width={550} height={600} />
+            <Image
+              src={section.img}
+              alt=""
+              width={i === 2 ? 300 : 550}
+              height={600}
+            />
           </div>
         </div>
       ))}
