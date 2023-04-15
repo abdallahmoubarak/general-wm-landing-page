@@ -12,7 +12,7 @@ export default function Hero() {
         <div className="flex row justify-start align-top w-fit max-w-[800px] ">
           {/* <Image src={"/png/Tank.png"} alt="" width={800} height={800} /> */}
           <img src={"/png/Tank.png"} alt="" width={"80%"} />
-          <div className="w-4 sm:w-8 md:w-16 h-fit -ml-6">
+          <div className="w-4 sm:w-8 md:w-16 h-fit -ml-6 sm:-ml-8 md:-ml-14">
             <AnimatedWifi />
           </div>
         </div>
