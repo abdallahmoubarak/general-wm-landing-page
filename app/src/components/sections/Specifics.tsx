@@ -5,7 +5,7 @@ export default function Specifics() {
   return (
     <div className="py-8">
       <div className="text-center pt-8 pb-20 px-4">
-        <SectionHeader text="All in one water controlling" />
+        <SectionHeader text="All-in-one water system" />
         <h2 className="tracking-wider text-black_gray sm:px-20">
           Monitor water levels in real-time, track usage, and receive low level
           alerts. Water Monster also provides valuable water quality
