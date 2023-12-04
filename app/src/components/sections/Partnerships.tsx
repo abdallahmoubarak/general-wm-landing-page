@@ -8,6 +8,16 @@ const partners = [
     link: "https://sites.aub.edu.lb/ipark/",
   },
   {
+    name: "Cewas",
+    logo: "/png/cewas.png",
+    link: "https://www.cewas.org/",
+  },
+  {
+    name: "Start Mashreq",
+    logo: "/png/startmashreq.png",
+    link: "https://www.startmashreq.com/en/",
+  },
+  {
     name: "Jusoor",
     logo: "/png/jusoor.png",
     link: "https://www.jusoor.ngo/",

@@ -1,6 +1,5 @@
 import Button from "../Button";
 import { BsWhatsapp } from "react-icons/bs";
-import Image from "next/image";
 import AnimatedWifi from "../AnimatedWifi";
 import Link from "next/link";
 
@@ -33,7 +32,7 @@ export default function Hero() {
         </h2>
       </div>
       <div className="w-fit mx-auto ">
-        <Link href={`https://wa.me/+96170097533?text=I want to buy `}>
+        <Link href={`https://wa.me/+96171390697?text=I want to buy `}>
           <Button text="Order Yours Now" icon={<BsWhatsapp />} />
         </Link>
       </div>

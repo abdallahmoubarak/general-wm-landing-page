@@ -9,10 +9,8 @@ export default function Header() {
       <a href="#">
         <Image src="svg/Logo.svg" alt="Water Monster" width={130} height={40} />
       </a>
-      <Link
-        href={`https://wa.me/+96170097533?text=I want to invest with you, my investment amount is:`}
-      >
-        <Button text="Invest in the project" icon={<BiDollarCircle />} />
+      <Link href={`https://wa.me/+96170097533?text=I want to invest `}>
+        <Button text="Invest Now" icon={<BiDollarCircle />} />
       </Link>
     </div>
   );
