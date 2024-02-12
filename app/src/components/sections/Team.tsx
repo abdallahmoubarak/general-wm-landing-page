@@ -28,11 +28,11 @@ const teamMembers = [
     image: "/jpg/jad.jpg",
     role: "Community Developer",
   },
-  {
-    name: "Aya Bitar",
-    image: "/jpg/maya.jpg",
-    role: "Marketing",
-  },
+  // {
+  //   name: "Aya Bitar",
+  //   image: "/jpg/maya.jpg",
+  //   role: "Marketing",
+  // },
   {
     name: "Sadiq Taqi",
     image: "/jpg/sadiq.jpg",
