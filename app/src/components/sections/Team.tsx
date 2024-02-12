@@ -19,11 +19,15 @@ const teamMembers = [
     role: "CTO & Product Developer",
   },
   {
+    name: "Jad Sayegh",
+    image: "/jpg/jad.jpg",
+    role: "Community Developer",
+  },
+  {
     name: "Fatima Kabalan",
     image: "/jpg/fatima.jpg",
     role: "Software Developer",
   },
-
   {
     name: "Sadiq Taqi",
     image: "/jpg/sadiq.jpg",

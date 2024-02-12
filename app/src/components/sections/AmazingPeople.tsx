@@ -24,6 +24,11 @@ const teamMembers = [
     role: "Sales & Business Developer",
   },
   {
+    name: "Hussien Reda",
+    image: "/jpg/hussein.jpg",
+    role: "Software Developer",
+  },
+  {
     name: "Rayan Kabalan",
     image: "/jpg/rayan.jpg",
     role: "Sales Representative",
