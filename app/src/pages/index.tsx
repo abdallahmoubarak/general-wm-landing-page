@@ -5,7 +5,8 @@ import Hero from "@/components/sections/Hero";
 import Specifics from "@/components/sections/Specifics";
 import Head from "next/head";
 import TeamMembers from "@/components/sections/Team";
-import Partnerships from "@/components/sections/Partnerships";
+import AmazingPeople from "@/components/sections/AmazingPeople";
+import Mentors from "@/components/sections/Mentors";
 
 export default function Home() {
   return (
@@ -23,8 +24,9 @@ export default function Home() {
       <main className="max-w-7xl mx-auto px-4">
         <Specifics />
         <Details />
-        <Partnerships />
+        <Mentors />
         <TeamMembers />
+        <AmazingPeople />
       </main>
       <Footer />
     </>

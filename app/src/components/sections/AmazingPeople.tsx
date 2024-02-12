@@ -4,35 +4,34 @@ import SectionHeader from "../SectionHeader";
 
 const teamMembers = [
   {
-    name: "Abdallah Moubarak",
-    image: "/jpg/abdallah.jpg",
-    role: "Founder & CEO",
+    name: "Yasser Shkeir",
+    image: "/jpg/yasser.jpg",
+    role: "Sales & Communication",
   },
   {
-    name: "Maha Khalaf",
-    image: "/jpg/maha.jpg",
-    role: "Business Developer",
+    name: "Hadi Darwish",
+    image: "/jpg/hadid.jpg",
+    role: "Product Developer",
   },
   {
-    name: "Mohammad Ayash",
-    image: "/jpg/ayash.jpg",
-    role: "CTO & Product Developer",
-  },
-  {
-    name: "Fatima Kabalan",
-    image: "/jpg/fatima.jpg",
+    name: "Ali Haidar",
+    image: "/jpg/ali.jpg",
     role: "Software Developer",
   },
-
   {
-    name: "Sadiq Taqi",
-    image: "/jpg/sadiq.jpg",
+    name: "Helena Ghanem",
+    image: "/jpg/helena.jpg",
+    role: "Sales & Business Developer",
+  },
+  {
+    name: "Rayan Kabalan",
+    image: "/jpg/rayan.jpg",
     role: "Sales Representative",
   },
   {
-    name: "Maya Bittar",
-    image: "/jpg/maya.jpg",
-    role: "Graphic Designer",
+    name: "Hussam Kak",
+    image: "/jpg/hussam.jpg",
+    role: "3D Modeler",
   },
 ];
 
@@ -56,10 +55,10 @@ function TeamMember({ image, name, role }: any) {
   );
 }
 
-export default function TeamMembers() {
+export default function AmazingPeople() {
   return (
     <div className="py-16">
-      <SectionHeader text="Meet the Team" />
+      <SectionHeader text="Amazing People Were Team Member" />
       <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-8">
         {teamMembers.map((member, index) => (
           <TeamMember
