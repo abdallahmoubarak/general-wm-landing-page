@@ -19,14 +19,19 @@ const teamMembers = [
     role: "CTO & Product Developer",
   },
   {
+    name: "Fatima Kabalan",
+    image: "/jpg/fatima.jpg",
+    role: "Software Developer",
+  },
+  {
     name: "Jad Sayegh",
     image: "/jpg/jad.jpg",
     role: "Community Developer",
   },
   {
-    name: "Fatima Kabalan",
-    image: "/jpg/fatima.jpg",
-    role: "Software Developer",
+    name: "Aya Bitar",
+    image: "/jpg/maya.jpg",
+    role: "Marketing",
   },
   {
     name: "Sadiq Taqi",
@@ -34,7 +39,7 @@ const teamMembers = [
     role: "Sales Representative",
   },
   {
-    name: "Maya Bittar",
+    name: "Maya Bitar",
     image: "/jpg/maya.jpg",
     role: "Graphic Designer",
   },
